@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <title>Main page</title>
 </head>
 <body>
+    <div class="boxes-container"></div>
     <a href="#nav" class="directions">
         > Move cursor to top of page to summon navbar or click me to go back to home!
     </a>
@@ -82,6 +83,14 @@
     </header>
     <main class="main">
         <section class="games" id="games">
+            <h1 class="games-header-container">
+                <span class="games-header-content">
+                    My favorite games
+                </span>
+                <span class="games-header-bonus">
+                    (For now...)
+                </span>
+            </h1>
             <div class="game" id="tf-2">
                 <div class="game-top">
                     <h1 class="game-title">
@@ -148,11 +157,38 @@
             </div>
         </section>
         <aside class="sidebar">
-            <div>
-                
-            </div>
+            <section class="sidebar-section">
+                <h1 class="sidebar-header">
+                    About me
+                </h1>
+                <p class="sidebar-paragraph">
+                    Apart from obviously being a gamer, I'm aspiring to be a web developer. My current specialities are HTML, CSS and pure JS with Canvas.
+                </p>
+                <p class="sidebar-paragraph">
+                    If you're looking for my socials or to check my work so far, use the links below.
+                </p>
+                <p class="sidebar-paragraph">
+                    You will not find this page on my main Github. 
+                </p>
+            </section>
+            <section class="sidebar-dropdown-container">
+                <div class="sidebar-header">
+                    My socials
+                </div>
+                <div class="sidebar-dropdown hidden">
+                    <a href="" target="_blank" class="sidebar-dropdown--link" id="github">
+                        Github
+                    </a>
+                    <a href="" target="_blank" class="sidebar-dropdown--link" id="twitter">
+                        Twitter
+                    </a>
+                </div>
+            </section>
         </aside>
     </main>
+    <div class="comment-section">
+
+    </div>
     <footer class="footer-container">
         <div class="footer-content">
             <a href="#nav" class="footer-home">
@@ -160,7 +196,9 @@
             </a>
         </div>
     </footer>
+    <script src="scripts/app.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/background-zoom.js"></script>
 </body>
 </html>
