@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Main page</title>
+</head>
+<body>
+    <a href="#nav" class="directions">
+        > Move cursor to top of page to summon navbar or click me to go back to home!
+    </a>
+    <div class="follower-site follow"></div>
+    <nav class="nav-container" id="nav">
+        <section class="nav">
+            <div class="nav-links">
+                <a class="nav-link" href="#home">
+                    Home
+                </a>
+                <a class="nav-link" href="#achievements">
+                    Achievements
+                </a>
+                <a class="nav-link" href="#games">
+                    Games
+                </a>
+            </div>
+            <div class="hamburger">
+                <div class="hamburger-button">
+                    <span class="hamburger-icon">
+                        ☰
+                    </span>
+                </div>
+                <ul class="hamburger-content">
+                    <div class="hideit-container">
+                        <span class="hideit">
+                            ✖
+                        </span>
+                    </div>
+                    <a class="hamburger-item" href="#home">
+                        Home
+                    </a>
+                    <a class="hamburger-item" href="#achievements">
+                        Achievements
+                    </a>
+                    <a class="hamburger-item" href="#games">
+                        Games
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </nav>
+    <header class="hero">
+        <figure class="hero-content">
+            <div class="hero-background">
+    
+            </div>
+            <div class="blur">
+                <figcaption class="profile-container">
+                    <img src="profile-picture.jpg" alt="My profile picture from steam" class="profile-picture">
+                </figcaption>
+                <h1 class="nickname">
+                    <span class="zombie-tag">*********</span>
+                    <span class="actual-name">vwwwwv</span>
+                </h1>
+                <summary class="description">
+                    <span class="paragraph">
+                        Tf2 and Elden Ring player. Lang: 🇵🇱/🇬🇧 (english preferred tho i'm polish).
+                    </span>
+                    <span class="paragraph">
+                        On TF2 I mostly play Zombie Escape (otaku.tf) or 2fort casual/community.
+                    </span>
+                    <span class="paragraph">
+                        On Elden Ring I mostly just help with end game bosses on ng+4+. My current build is quality infused double prelate's inferno croziers with the set (full when i reach very high endurance) for very cool fashion. I think I should put him on my pfp.
+                    </span>
+                </summary>
+            </div>
+        </figure>
+    </header>
+    <main class="main">
+        <section class="games" id="games">
+            <div class="game" id="tf-2">
+                <div class="game-top">
+                    <h1 class="game-title">
+                        Team Fortress 2
+                    </h1>
+                    <span class="game-hours">
+                        Played at least: 1.5k+ hrs
+                    </span>
+                </div>
+                <div class="game-middle">
+                    <img src="tf2-background.jpg" class="game-background">
+                    <div class="achievement-progress">
+                            <span class="achievement-text">
+                                Achievement progress: 
+                            </span>
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                            <span class="achievement-text">
+                                274/520
+                            </span>
+                    </div>
+                </div>
+                <div class="game-bottom">
+                    <a class="game-button buy" href="https://store.steampowered.com/app/440/Team_Fortress_2/" target="_blank">
+                        Buy it
+                    </a>
+                    <a class="game-button check" href="https://steamcommunity.com/profiles/76561199195126864/stats/TF2" targer="_blank">
+                        Check on steam
+                    </a>
+                </div>
+            </div>
+            <div class="game" id="er">
+                <div class="game-top">
+                    <h1 class="game-title">
+                        Elden Ring
+                    </h1>
+                    <span class="game-hours">
+                        Played at least: 460+ hrs
+                    </span>
+                </div>
+                <div class="game-middle">
+                    <img src="er-background.jpeg" class="game-background">
+                    <div class="achievement-progress">
+                        <span class="achievement-text">
+                            Achievement progress: 
+                        </span>
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="achievement-text">
+                            38/42 
+                        </span>
+                    </div>
+                </div>
+                <div class="game-bottom">
+                    <a class="game-button buy" href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
+                        Buy it
+                    </a>
+                    <a class="game-button check" href="https://steamcommunity.com/profiles/76561199195126864/stats/1245620/achievements/" targer="_blank">
+                        Check on steam
+                    </a>
+                </div>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <div>
+                
+            </div>
+        </aside>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <a href="#nav" class="footer-home">
+                Are you blind? Go home!
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/navbar.js"></script>
+</body>
+</html>
