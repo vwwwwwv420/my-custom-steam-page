@@ -1,3 +1,5 @@
+This page is still in progress of being created. It's not finished.
+
 # Steam Landing page for my profile.
 
 This is "steam-themed" landing page for my profile being just my regular profile but more the way I like it. Steam-themed means I use dark blue colours for the elements on my page.
