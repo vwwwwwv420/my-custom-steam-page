@@ -229,7 +229,7 @@ html, body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url("/hero-background.jpg");
+    background-image: url("hero-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
