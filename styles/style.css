@@ -8,7 +8,7 @@
      --secondary-creative: #c7d5e0;
      --white: white;
      --lime: lime;
-     --brown: rgb(192, 114, 41);
+     --purple: #810082;
      --third-creative: rgb(7, 158, 67);
      --third-creative-hover: rgb(62, 218, 124);
      --display: flex;
@@ -296,7 +296,7 @@ html, body{
 }
 
 .zombie-tag{
-    color: var(--brown);
+    color: var(--purple);
     letter-spacing: 1px;
 }
 
